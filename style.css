@@ -1,0 +1,51 @@
+:root {
+  --grey:    #000000;
+  --red:     #ff5555;
+  --green:   #50fa7b;
+  --yellow:  #f0fa8b;
+  --blue:    #bd92f8;
+  --magenta: #ff78c5;
+  --cyan:    #8ae9fc;
+  --white:   #bbbbbb;
+  --background: #1e1f28;
+  --foreground: #f8f8f2;
+}
+
+body {
+  font-size: 30px;
+  background-color: var(--background) !important;
+  color: var(--foreground) !important;
+}
+
+#header {
+  background-color: var(--background) !important;
+  color: var(--foreground) !important;
+}
+
+h1.title{
+  color: var(--green);
+}
+
+a {
+  margin-left: 20px;
+}
+a.repo{
+  color: var(--magenta);
+}
+
+
+table, thead, th, tr, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+
+
+.sticky {
+  position: sticky;
+  background: var(--background);
+  border: 2px solid;
+  border-color: var(--white);
+  border-radius: 30px;
+  padding: 5px;
+  z-index: 1000;
+}
